@@ -5,8 +5,8 @@ import datetime as dt
 import random
 import smtplib
 
-my_email="vithiyaofficial@gmail.com"
-password="usbnckisyhtqfecr"
+my_email="test@gmail.com"
+password="jhkhhk"
 today=(dt.datetime.now().month,dt.datetime.now().day)
 birthday_info=pandas.read_csv("birthdays.csv")
 birthday_dict={(data_row["month"],data_row["day"]):data_row for (index,data_row) in birthday_info.iterrows()}
